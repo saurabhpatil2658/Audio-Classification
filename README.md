@@ -22,18 +22,25 @@ Data Visualization:
 Visualize the dataset to gain insights into the distribution of different classes and sample audio clips.
 
 Data Preprocessing:
+
   Feature Extraction: Extract features from audio samples. Here, we'll use Mel-Frequency Cepstral Coefficients (MFCCs).
+  
   Data Splitting: Split the dataset into training, validation, and test sets.
   
 Model Building
 Model Architecture: Design a neural network architecture for audio classification.
+
 Model Training: Train the model on the training data.
+
 Model Prediction: Use the trained model to make predictions on test audio data.
+
 Testing: Evaluate the model's performance on the test set using accuracy, precision, recall, and F1-score metrics.
+
 Usage
 data_preparation.ipynb: Jupyter notebook for data preparation.
 data_visualization.ipynb: Jupyter notebook for data visualization.
 feature_extraction.ipynb: Jupyter notebook for feature extraction.
 model_training.ipynb: Jupyter notebook for model training and evaluation.
+
 Acknowledgments
 This project utilizes the UrbanSound8K dataset provided by Urban Sound Dataset.
